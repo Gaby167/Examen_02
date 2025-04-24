@@ -1,0 +1,70 @@
+<robot name="example_robot">
+    <link name="base_link"/>
+    
+    <link name="eslabon0">
+        <visual>
+            <material name="blue">
+                <color rgba="0 0 .8 1"/>
+            </material>
+            <geometry>
+                <cylinder length="0.1" radius="0.05"/>
+            </geometry>
+        </visual>
+    </link>
+    
+    <joint name="base_e0" type="fixed">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="eslabon0"/>
+    </joint>
+    
+    <link name="eslabon1">
+        <visual>
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+        </visual>
+    </link>
+    
+    <joint name="q1" type="prismatic">
+        <origin xyz="0 0 1" rpy="0 0 0"/>
+        <parent link="eslabon0"/>
+        <child link="eslabon1"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="0" upper="1" effort="10" velocity="1"/>
+    </joint>
+    
+    <link name="eslabon1_p">
+        <visual>
+            <geometry>
+                <cylinder length="0.5" radius="0.05"/>
+            </geometry>
+        </visual>
+    </link>
+    
+    <joint name="q1_passive" type="fixed">
+        <origin xyz="0 0 0" rpy="1.5707963267948966 0 0"/>
+        <parent link="eslabon1"/>
+        <child link="eslabon1_p"/>
+    </joint>
+    
+    <link name="eslabon2"/>
+    
+    <joint name="q2" type="revolute">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="eslabon1_p"/>
+        <child link="eslabon2"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/>
+    </joint>
+    
+    <link name="eslabon3"/>
+    
+    <joint name="q3" type="revolute">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <parent link="eslabon2"/>
+        <child link="eslabon3"/>
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="10" velocity="1"/>
+    </joint>
+</robot>
