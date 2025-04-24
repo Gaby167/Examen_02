@@ -1,0 +1,686 @@
+[0.076s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.076s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x743e8c75c6d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x743e8c88d600>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x743e8c88d600>>, mixin_verb=('build',))
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.200s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.200s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/leoni/cato'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/Stage) by extension 'python'
+[0.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Stage' with type 'cmake' and name 'Stage'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemov) by extension 'ros'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lemov' with type 'ros.ament_python' and name 'lemov'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lemove) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lemove' with type 'ros.ament_python' and name 'lemove'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/lol) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lol' with type 'ros.ament_cmake' and name 'lol'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_tb3) by extension 'ros'
+[0.231s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_tb3' with type 'ros.ament_cmake' and name 'navigation_tb3'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/stage_ros2) by extension 'ros'
+[0.232s] DEBUG:colcon.colcon_core.package_identification:Package 'src/stage_ros2' with type 'ros.ament_cmake' and name 'stage_ros2'
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.249s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/leoni/turtlebot3_ws/install
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/leoni/stage/install
+[0.251s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/leoni/Desktop/robotica/brazo/install
+[0.252s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/leoni/cato/install
+[0.253s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 417 installed packages in /opt/ros/humble
+[0.256s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.291s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cartographer_ros' is in: /opt/ros/humble, /home/leoni/cato/install/cartographer_ros
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding cartographer_ros
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'Stage' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'Stage' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/Stage', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/Stage', 'merge_install': False, 'path': '/home/leoni/cato/src/Stage', 'symlink_install': False, 'test_result_base': None}
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.292s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.292s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemov' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'lemov' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/lemov', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/lemov', 'merge_install': False, 'path': '/home/leoni/cato/src/lemov', 'symlink_install': False, 'test_result_base': None}
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'cmake_target' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'cmake_clean_cache' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'cmake_clean_first' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'cmake_force_configure' from command line to 'False'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'ament_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'catkin_cmake_args' from command line to 'None'
+[0.293s] Level 5:colcon.colcon_core.verb:set package 'lemove' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.293s] DEBUG:colcon.colcon_core.verb:Building package 'lemove' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/lemove', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/lemove', 'merge_install': False, 'path': '/home/leoni/cato/src/lemove', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'cmake_force_configure' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'ament_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'lol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.294s] DEBUG:colcon.colcon_core.verb:Building package 'lol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/lol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/lol', 'merge_install': False, 'path': '/home/leoni/cato/src/lol', 'symlink_install': False, 'test_result_base': None}
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_clean_first' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'navigation_tb3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_tb3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/navigation_tb3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/navigation_tb3', 'merge_install': False, 'path': '/home/leoni/cato/src/navigation_tb3', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/cartographer_ros', 'merge_install': False, 'path': '/home/leoni/cato/src/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'stage_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'stage_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/stage_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/stage_ros2', 'merge_install': False, 'path': '/home/leoni/cato/src/stage_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.296s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.296s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/leoni/cato/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/leoni/cato/install/cartographer_rviz', 'merge_install': False, 'path': '/home/leoni/cato/src/cartographer_ros/cartographer_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.296s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.298s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs'
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.300s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.300s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/Stage'
+[0.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoni/cato/src/lemov' with build type 'ament_python'
+[0.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('lemov', 'ament_prefix_path')
+[0.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemov/share/lemov/hook/ament_prefix_path.ps1'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/lemov/share/lemov/hook/ament_prefix_path.dsv'
+[0.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemov/share/lemov/hook/ament_prefix_path.sh'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.324s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/leoni/cato/src/lemove' with build type 'ament_python'
+[0.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('lemove', 'ament_prefix_path')
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemove/share/lemove/hook/ament_prefix_path.ps1'
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/lemove/share/lemove/hook/ament_prefix_path.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemove/share/lemove/hook/ament_prefix_path.sh'
+[0.326s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.333s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/cato/src/lol' with build type 'ament_cmake'
+[0.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/lol'
+[0.334s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.334s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.341s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/cato/src/navigation_tb3' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/navigation_tb3'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.357s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/cartographer_ros_msgs -- -j16 -l16
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/Stage': /usr/bin/cmake --build /home/leoni/cato/build/Stage -- -j16 -l16
+[0.676s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoni/cato/src/lemov'
+[0.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.677s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.953s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/leoni/cato/src/lemove'
+[0.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/lol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/lol -- -j16 -l16
+[0.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/navigation_tb3 -- -j16 -l16
+[0.972s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/Stage' returned '0': /usr/bin/cmake --build /home/leoni/cato/build/Stage -- -j16 -l16
+[0.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/Stage': /usr/bin/cmake --install /home/leoni/cato/build/Stage
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/cartographer_ros_msgs -- -j16 -l16
+[0.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/cartographer_ros_msgs
+[0.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Stage)
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage' for CMake module files
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage' for CMake config files
+[1.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'cmake_prefix_path')
+[1.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/cmake_prefix_path.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/Stage/share/Stage/hook/cmake_prefix_path.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/cmake_prefix_path.sh'
+[1.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/Stage' returned '0': /usr/bin/cmake --install /home/leoni/cato/build/Stage
+[1.037s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage/lib'
+[1.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'ld_library_path_lib')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/ld_library_path_lib.ps1'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/Stage/share/Stage/hook/ld_library_path_lib.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/ld_library_path_lib.sh'
+[1.049s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage/bin'
+[1.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'path')
+[1.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/path.ps1'
+[1.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/Stage/share/Stage/hook/path.dsv'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/path.sh'
+[1.056s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage/lib/pkgconfig/Stage.pc'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage/lib/python3.10/site-packages'
+[1.057s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/Stage/bin'
+[1.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('Stage', 'pythonscriptspath')
+[1.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/pythonscriptspath.ps1'
+[1.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/Stage/share/Stage/hook/pythonscriptspath.dsv'
+[1.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/Stage/share/Stage/hook/pythonscriptspath.sh'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/Stage/share/Stage/package.ps1'
+[1.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/Stage/share/Stage/package.dsv'
+[1.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/Stage/share/Stage/package.sh'
+[1.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/Stage/share/Stage/package.bash'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/Stage/share/Stage/package.zsh'
+[1.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/Stage/share/colcon-core/packages/Stage)
+[1.073s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/cato/src/stage_ros2' with build type 'ament_cmake'
+[1.073s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/stage_ros2'
+[1.073s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.073s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.081s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/lol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/lol -- -j16 -l16
+[1.083s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs' for CMake module files
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/lol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/lol
+[1.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/cartographer_ros_msgs
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs' for CMake config files
+[1.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.087s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/lib'
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/bin'
+[1.089s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/bin'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs' for CMake module files
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs' for CMake config files
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/lib'
+[1.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/bin'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros_msgs/bin'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[1.106s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/cato/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[1.107s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/cartographer_ros/cartographer_ros'
+[1.107s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.107s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lol)
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol' for CMake module files
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leoni/cato/install/Stage:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/Stage/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/stage_ros2 -- -j16 -l16
+[1.122s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol' for CMake config files
+[1.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/lol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/lol
+[1.123s] Level 1:colcon.colcon_core.shell:create_environment_hook('lol', 'cmake_prefix_path')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lol/share/lol/hook/cmake_prefix_path.ps1'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/lol/share/lol/hook/cmake_prefix_path.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lol/share/lol/hook/cmake_prefix_path.sh'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/bin'
+[1.125s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/lib/pkgconfig/lol.pc'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/lib/python3.10/site-packages'
+[1.126s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/bin'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.ps1'
+[1.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/lol/share/lol/package.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.sh'
+[1.129s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.bash'
+[1.130s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.zsh'
+[1.130s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/lol/share/colcon-core/packages/lol)
+[1.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lol)
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol' for CMake module files
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol' for CMake config files
+[1.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('lol', 'cmake_prefix_path')
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lol/share/lol/hook/cmake_prefix_path.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/lol/share/lol/hook/cmake_prefix_path.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lol/share/lol/hook/cmake_prefix_path.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/lib/pkgconfig/lol.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lol/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/lol/share/lol/package.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.sh'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.bash'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lol/share/lol/package.zsh'
+[1.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/lol/share/colcon-core/packages/lol)
+[1.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/cartographer_ros -- -j16 -l16
+[1.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/Stage:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/Stage/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/stage_ros2 -- -j16 -l16
+[1.248s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/stage_ros2': CMAKE_PREFIX_PATH=/home/leoni/cato/install/Stage:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/Stage/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/stage_ros2
+[1.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[1.262s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2' for CMake module files
+[1.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/stage_ros2' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/Stage:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/Stage/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/stage_ros2
+[1.263s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2' for CMake config files
+[1.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[1.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[1.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[1.265s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/lib'
+[1.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[1.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[1.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/bin'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[1.266s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/lib/python3.10/site-packages'
+[1.267s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/bin'
+[1.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.ps1'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.dsv'
+[1.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.sh'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.bash'
+[1.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.zsh'
+[1.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[1.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stage_ros2)
+[1.271s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2' for CMake module files
+[1.272s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2' for CMake config files
+[1.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'cmake_prefix_path')
+[1.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.ps1'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.dsv'
+[1.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/cmake_prefix_path.sh'
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/lib'
+[1.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('stage_ros2', 'ld_library_path_lib')
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.dsv'
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/stage_ros2/share/stage_ros2/hook/ld_library_path_lib.sh'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/bin'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/lib/pkgconfig/stage_ros2.pc'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/lib/python3.10/site-packages'
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/stage_ros2/bin'
+[1.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.sh'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.bash'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/stage_ros2/share/stage_ros2/package.zsh'
+[1.282s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/stage_ros2/share/colcon-core/packages/stage_ros2)
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/cartographer_ros -- -j16 -l16
+[1.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/cartographer_ros
+[1.360s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[1.361s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros' for CMake module files
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/cartographer_ros
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros' for CMake config files
+[1.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[1.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/lib'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/bin'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[1.364s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/lib/python3.10/site-packages'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/bin'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.sh'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.bash'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[1.367s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[1.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros' for CMake module files
+[1.368s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros' for CMake config files
+[1.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[1.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/lib'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/bin'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/lib/python3.10/site-packages'
+[1.370s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_ros/bin'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[1.371s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.sh'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.bash'
+[1.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[1.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[1.373s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/leoni/cato/src/cartographer_ros/cartographer_rviz' with build type 'ament_cmake'
+[1.373s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/leoni/cato/src/cartographer_ros/cartographer_rviz'
+[1.373s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.373s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/cartographer_rviz -- -j16 -l16
+[1.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/navigation_tb3 -- -j16 -l16
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/navigation_tb3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/navigation_tb3
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/src/lemove': PYTHONPATH=/home/leoni/cato/build/lemove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemove build --build-base /home/leoni/cato/build/lemove/build install --record /home/leoni/cato/build/lemove/install.log --single-version-externally-managed install_data
+[1.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3' for CMake module files
+[1.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/navigation_tb3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/navigation_tb3
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3' for CMake config files
+[1.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/lib'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/bin'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/lib/python3.10/site-packages'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/bin'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.bash'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[1.501s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[1.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_tb3)
+[1.503s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3' for CMake module files
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3' for CMake config files
+[1.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_tb3', 'cmake_prefix_path')
+[1.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.ps1'
+[1.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.dsv'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/hook/cmake_prefix_path.sh'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/lib'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/bin'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/lib/pkgconfig/navigation_tb3.pc'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/lib/python3.10/site-packages'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/navigation_tb3/bin'
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.sh'
+[1.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.bash'
+[1.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/navigation_tb3/share/navigation_tb3/package.zsh'
+[1.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/navigation_tb3/share/colcon-core/packages/navigation_tb3)
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/cartographer_rviz -- -j16 -l16
+[1.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/cartographer_rviz
+[1.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/leoni/cato/src/lemov': PYTHONPATH=/home/leoni/cato/build/lemov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemov build --build-base /home/leoni/cato/build/lemov/build install --record /home/leoni/cato/build/lemov/install.log --single-version-externally-managed install_data
+[1.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz' for CMake module files
+[1.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/lol:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/cartographer_rviz
+[1.592s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz' for CMake config files
+[1.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[1.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[1.594s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[1.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/lib'
+[1.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[1.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/bin'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[1.598s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/lib/python3.10/site-packages'
+[1.599s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/bin'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[1.600s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[1.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[1.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[1.603s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[1.603s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[1.604s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz' for CMake module files
+[1.605s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz' for CMake config files
+[1.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[1.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[1.606s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[1.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[1.608s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/lib'
+[1.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[1.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[1.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/bin'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[1.610s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/lib/python3.10/site-packages'
+[1.611s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/cartographer_rviz/bin'
+[1.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[1.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[1.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[1.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[1.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove' for CMake module files
+[1.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/src/lemove' returned '0': PYTHONPATH=/home/leoni/cato/build/lemove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemove build --build-base /home/leoni/cato/build/lemove/build install --record /home/leoni/cato/build/lemove/install.log --single-version-externally-managed install_data
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove' for CMake config files
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove/lib'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove/bin'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove/lib/pkgconfig/lemove.pc'
+[1.816s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove/lib/python3.10/site-packages'
+[1.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('lemove', 'pythonpath')
+[1.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemove/share/lemove/hook/pythonpath.ps1'
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/lemove/share/lemove/hook/pythonpath.dsv'
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemove/share/lemove/hook/pythonpath.sh'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemove/bin'
+[1.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lemove)
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemove/share/lemove/package.ps1'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/lemove/share/lemove/package.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemove/share/lemove/package.sh'
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemove/share/lemove/package.bash'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemove/share/lemove/package.zsh'
+[1.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/lemove/share/colcon-core/packages/lemove)
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov' for CMake module files
+[1.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/leoni/cato/src/lemov' returned '0': PYTHONPATH=/home/leoni/cato/build/lemov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemov build --build-base /home/leoni/cato/build/lemov/build install --record /home/leoni/cato/build/lemov/install.log --single-version-externally-managed install_data
+[1.949s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov' for CMake config files
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov/lib'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov/bin'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov/lib/pkgconfig/lemov.pc'
+[1.950s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov/lib/python3.10/site-packages'
+[1.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('lemov', 'pythonpath')
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemov/share/lemov/hook/pythonpath.ps1'
+[1.951s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/leoni/cato/install/lemov/share/lemov/hook/pythonpath.dsv'
+[1.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/leoni/cato/install/lemov/share/lemov/hook/pythonpath.sh'
+[1.952s] Level 1:colcon.colcon_core.environment:checking '/home/leoni/cato/install/lemov/bin'
+[1.952s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lemov)
+[1.953s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemov/share/lemov/package.ps1'
+[1.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/leoni/cato/install/lemov/share/lemov/package.dsv'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemov/share/lemov/package.sh'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemov/share/lemov/package.bash'
+[1.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/leoni/cato/install/lemov/share/lemov/package.zsh'
+[1.954s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/leoni/cato/install/lemov/share/colcon-core/packages/lemov)
+[1.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.955s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.955s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.961s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.961s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.961s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.974s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.974s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/cato/install/local_setup.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoni/cato/install/_local_setup_util_ps1.py'
+[1.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/cato/install/setup.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/cato/install/local_setup.sh'
+[1.981s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/leoni/cato/install/_local_setup_util_sh.py'
+[1.981s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/cato/install/setup.sh'
+[1.983s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/cato/install/local_setup.bash'
+[1.984s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/cato/install/setup.bash'
+[1.986s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/leoni/cato/install/local_setup.zsh'
+[1.987s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/leoni/cato/install/setup.zsh'

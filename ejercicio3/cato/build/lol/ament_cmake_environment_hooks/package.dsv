@@ -1,0 +1,4 @@
+source;share/lol/local_setup.bash
+source;share/lol/local_setup.dsv
+source;share/lol/local_setup.sh
+source;share/lol/local_setup.zsh

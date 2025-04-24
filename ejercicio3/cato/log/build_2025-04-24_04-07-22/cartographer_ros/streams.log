@@ -1,0 +1,208 @@
+[0.009s] Invoking command in '/home/leoni/cato/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lol:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/leoni/cato/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/leoni/cato/install/cartographer_ros
+[0.051s] -- The C compiler identification is GNU 11.4.0
+[0.092s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.151s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.219s] -- Detecting CXX compiler ABI info - done
+[0.225s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.225s] -- Detecting CXX compile features
+[0.225s] -- Detecting CXX compile features - done
+[0.229s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.357s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.434s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.464s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.470s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.477s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.487s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.501s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.516s] -- Looking for pthread.h
+[0.566s] -- Looking for pthread.h - found
+[0.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.617s] -- Found Threads: TRUE  
+[0.622s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[0.627s] -- Found required Ceres dependency: glog
+[0.628s] -- Found required Ceres dependency: gflags
+[0.628s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[0.635s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/leoni/cato/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[0.680s] -- Checking for module 'eigen3'
+[0.690s] --   Found eigen3, version 3.4.0
+[0.713s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.713s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.737s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[0.738s] -- looking for PCL_COMMON
+[0.739s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.739s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[0.743s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.758s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.807s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.811s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.883s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.906s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.940s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.009s] -- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[1.044s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[1.048s] -- Found tf2_eigen: 0.25.12 (/opt/ros/humble/share/tf2_eigen/cmake)
+[1.112s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.122s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.287s] -- Configuring done
+[1.372s] -- Generating done
+[1.389s] -- Build files have been written to: /home/leoni/cato/build/cartographer_ros
+[1.398s] Invoked command in '/home/leoni/cato/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lol:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/leoni/cato/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/leoni/cato/install/cartographer_ros
+[1.399s] Invoking command in '/home/leoni/cato/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lol:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/cartographer_ros -- -j16 -l16
+[1.440s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[1.440s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[1.440s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[1.440s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[1.441s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[1.441s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[1.441s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[1.441s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[1.441s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[1.441s] [ 28%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[1.441s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[1.441s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[1.441s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[1.441s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[1.442s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[1.446s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[2.062s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[6.685s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[6.902s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[7.494s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[32.658s] [ 60%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[33.212s] [ 60%] Built target cartographer_ros
+[33.229s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[33.229s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[33.229s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[33.229s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[33.229s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[33.229s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[33.229s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[38.699s] [ 82%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[39.029s] [ 85%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[39.466s] [ 85%] Built target cartographer_pbstream_to_ros_map
+[39.800s] [ 88%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[40.536s] [ 88%] Built target cartographer_assets_writer
+[40.555s] [ 91%] [32m[1mLinking CXX executable cartographer_node[0m
+[41.076s] [ 94%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[41.647s] [ 94%] Built target cartographer_pbstream_map_publisher
+[41.872s] [ 97%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[42.261s] [ 97%] Built target cartographer_rosbag_validate
+[42.641s] [ 97%] Built target cartographer_offline_node
+[43.520s] [ 97%] Built target cartographer_node
+[44.092s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[44.725s] [100%] Built target cartographer_occupancy_grid_node
+[44.733s] Invoked command in '/home/leoni/cato/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lol:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/leoni/cato/build/cartographer_ros -- -j16 -l16
+[44.734s] Invoking command in '/home/leoni/cato/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lol:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/cartographer_ros
+[44.739s] -- Install configuration: ""
+[44.740s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/libcartographer_ros.a
+[44.777s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[44.788s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[44.788s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[44.791s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""
+[44.791s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[44.803s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""
+[44.803s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[44.805s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""
+[44.805s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[44.807s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""
+[44.807s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[44.808s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""
+[44.808s] -- Installing: /home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[44.809s] -- Set runtime path of "/home/leoni/cato/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include/
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/submap.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/node.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/node_options.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics/internal
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[44.809s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[44.810s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//urdf
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[44.811s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[44.812s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.dsv
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.813s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[44.814s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.814s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[44.814s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[44.814s] -- Installing: /home/leoni/cato/install/cartographer_ros/share/cartographer_ros/package.xml
+[44.816s] Invoked command in '/home/leoni/cato/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/leoni/cato/install/cartographer_ros_msgs:/home/leoni/cato/install/stage_ros2:/home/leoni/cato/install/navigation_tb3:/home/leoni/cato/install/cartographer_rviz:/home/leoni/cato/install/cartographer_ros:/home/leoni/cato/install/Stage:/home/leoni/turtlebot3_ws/install/turtlebot3:/home/leoni/turtlebot3_ws/install/turtlebot3_simulations:/home/leoni/turtlebot3_ws/install/turtlebot3_bringup:/home/leoni/turtlebot3_ws/install/turtlebot3_node:/home/leoni/turtlebot3_ws/install/turtlebot3_navigation2:/home/leoni/turtlebot3_ws/install/turtlebot3_fake_node:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs:/home/leoni/turtlebot3_ws/install/turtlebot3_gazebo:/home/leoni/turtlebot3_ws/install/turtlebot3_description:/home/leoni/turtlebot3_ws/install/turtlebot3_cartographer:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_examples:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/leoni/turtlebot3_ws/install/dynamixel_sdk:/home/leoni/stage/install/stage_ros2:/home/leoni/stage/install/Stage:/home/leoni/Desktop/robotica/brazo/install/cubo_urdf:/home/leoni/cato/install/lol:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/leoni/cato/install/cartographer_ros_msgs/lib:/home/leoni/cato/install/stage_ros2/lib:/home/leoni/cato/install/cartographer_rviz/lib:/home/leoni/cato/install/cartographer_ros/lib:/home/leoni/cato/install/Stage/lib:/home/leoni/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/leoni/turtlebot3_ws/install/dynamixel_sdk/lib:/home/leoni/stage/install/stage_ros2/lib:/home/leoni/stage/install/Stage/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/leoni/cato/build/cartographer_ros

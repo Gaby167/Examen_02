@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/lemov/lemov.egg-info/PKG-INFO
+writing dependency_links to ../../build/lemov/lemov.egg-info/dependency_links.txt
+writing entry points to ../../build/lemov/lemov.egg-info/entry_points.txt
+writing requirements to ../../build/lemov/lemov.egg-info/requires.txt
+writing top-level names to ../../build/lemov/lemov.egg-info/top_level.txt
+reading manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+writing manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lemov/moer.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+copying lemov/movisen.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+copying lemov/sensores.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+running install
+running install_lib
+copying /home/leoni/cato/build/lemov/build/lib/lemov/moer.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+copying /home/leoni/cato/build/lemov/build/lib/lemov/movisen.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+copying /home/leoni/cato/build/lemov/build/lib/lemov/sensores.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/moer.py to moer.cpython-310.pyc
+byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/movisen.py to movisen.cpython-310.pyc
+byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/sensores.py to sensores.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lemov/lemov.egg-info to /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move script to /home/leoni/cato/install/lemov/lib/lemov
+Installing movisen script to /home/leoni/cato/install/lemov/lib/lemov
+Installing sensori script to /home/leoni/cato/install/lemov/lib/lemov
+writing list of installed files to '/home/leoni/cato/build/lemov/install.log'

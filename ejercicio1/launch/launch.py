@@ -28,5 +28,8 @@ def generate_launch_description():
             output='screen',
             arguments=['-d', os.path.join(pkg_path, 'urdf', 'default.rviz')]
         ),
-
+        Node(
+            package='ejercicio1', executable='c_inversa',
+            output='screen'
+        ),
     ])

@@ -1,0 +1,22 @@
+[0.384s] Invoking command in '/home/leoni/cato/build/lol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/lol -- -j16 -l16
+[0.468s] Invoked command in '/home/leoni/cato/build/lol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/leoni/cato/build/lol -- -j16 -l16
+[0.470s] Invoking command in '/home/leoni/cato/build/lol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/lol
+[0.477s] -- Install configuration: ""
+[0.477s] -- Up-to-date: /home/leoni/cato/install/lol/share/ament_index/resource_index/package_run_dependencies/lol
+[0.477s] -- Up-to-date: /home/leoni/cato/install/lol/share/ament_index/resource_index/parent_prefix_path/lol
+[0.477s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/environment/ament_prefix_path.sh
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/environment/ament_prefix_path.dsv
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/environment/path.sh
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/environment/path.dsv
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/local_setup.bash
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/local_setup.sh
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/local_setup.zsh
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/local_setup.dsv
+[0.478s] -- Installing: /home/leoni/cato/install/lol/share/lol/package.dsv
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/ament_index/resource_index/packages/lol
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/cmake/lolConfig.cmake
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/cmake/lolConfig-version.cmake
+[0.478s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/package.xml
+[0.479s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/launch
+[0.479s] -- Up-to-date: /home/leoni/cato/install/lol/share/lol/launch/leoni.launch.py
+[0.493s] Invoked command in '/home/leoni/cato/build/lol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/leoni/cato/install/lemove:/home/leoni/cato/install/lemov:/home/leoni/turtlebot3_ws/install/turtlebot3_teleop:/home/leoni/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/leoni/cato/build/lol

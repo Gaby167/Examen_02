@@ -1,0 +1,21 @@
+[0.721s] Invoking command in '/home/leoni/cato/src/lemove': PYTHONPATH=/home/leoni/cato/build/lemove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemove build --build-base /home/leoni/cato/build/lemove/build install --record /home/leoni/cato/build/lemove/install.log --single-version-externally-managed install_data
+[0.897s] running egg_info
+[0.898s] writing ../../build/lemove/lemove.egg-info/PKG-INFO
+[0.898s] writing dependency_links to ../../build/lemove/lemove.egg-info/dependency_links.txt
+[0.898s] writing entry points to ../../build/lemove/lemove.egg-info/entry_points.txt
+[0.898s] writing requirements to ../../build/lemove/lemove.egg-info/requires.txt
+[0.898s] writing top-level names to ../../build/lemove/lemove.egg-info/top_level.txt
+[0.899s] reading manifest file '../../build/lemove/lemove.egg-info/SOURCES.txt'
+[0.899s] writing manifest file '../../build/lemove/lemove.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] running install
+[0.900s] running install_lib
+[0.901s] running install_data
+[0.901s] running install_egg_info
+[0.902s] removing '/home/leoni/cato/install/lemove/lib/python3.10/site-packages/lemove-0.0.0-py3.10.egg-info' (and everything under it)
+[0.902s] Copying ../../build/lemove/lemove.egg-info to /home/leoni/cato/install/lemove/lib/python3.10/site-packages/lemove-0.0.0-py3.10.egg-info
+[0.903s] running install_scripts
+[0.918s] Installing moer script to /home/leoni/cato/install/lemove/lib/lemove
+[0.918s] writing list of installed files to '/home/leoni/cato/build/lemove/install.log'
+[0.935s] Invoked command in '/home/leoni/cato/src/lemove' returned '0': PYTHONPATH=/home/leoni/cato/build/lemove/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemove/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemove build --build-base /home/leoni/cato/build/lemove/build install --record /home/leoni/cato/build/lemove/install.log --single-version-externally-managed install_data

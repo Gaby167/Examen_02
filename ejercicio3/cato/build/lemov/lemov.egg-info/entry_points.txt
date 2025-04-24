@@ -1,0 +1,5 @@
+[console_scripts]
+move = lemov.moer:main
+movisen = lemov.movisen:main
+sensori = lemov.sensores:main
+

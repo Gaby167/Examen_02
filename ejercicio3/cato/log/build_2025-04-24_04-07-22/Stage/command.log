@@ -1,0 +1,6 @@
+Invoking command in '/home/leoni/cato/build/Stage': /usr/bin/cmake /home/leoni/cato/src/Stage -DCMAKE_INSTALL_PREFIX=/home/leoni/cato/install/Stage
+Invoked command in '/home/leoni/cato/build/Stage' returned '0': /usr/bin/cmake /home/leoni/cato/src/Stage -DCMAKE_INSTALL_PREFIX=/home/leoni/cato/install/Stage
+Invoking command in '/home/leoni/cato/build/Stage': /usr/bin/cmake --build /home/leoni/cato/build/Stage -- -j16 -l16
+Invoked command in '/home/leoni/cato/build/Stage' returned '0': /usr/bin/cmake --build /home/leoni/cato/build/Stage -- -j16 -l16
+Invoking command in '/home/leoni/cato/build/Stage': /usr/bin/cmake --install /home/leoni/cato/build/Stage
+Invoked command in '/home/leoni/cato/build/Stage' returned '0': /usr/bin/cmake --install /home/leoni/cato/build/Stage

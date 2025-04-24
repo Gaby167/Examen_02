@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/lemov/lemov.egg-info
+writing ../../build/lemov/lemov.egg-info/PKG-INFO
+writing dependency_links to ../../build/lemov/lemov.egg-info/dependency_links.txt
+writing entry points to ../../build/lemov/lemov.egg-info/entry_points.txt
+writing requirements to ../../build/lemov/lemov.egg-info/requires.txt
+writing top-level names to ../../build/lemov/lemov.egg-info/top_level.txt
+writing manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+reading manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+writing manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/leoni/cato/build/lemov/build
+creating /home/leoni/cato/build/lemov/build/lib
+creating /home/leoni/cato/build/lemov/build/lib/lemov
+copying lemov/moer.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+copying lemov/__init__.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+copying lemov/sensores.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+running install
+running install_lib
+creating /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+copying /home/leoni/cato/build/lemov/build/lib/lemov/moer.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+copying /home/leoni/cato/build/lemov/build/lib/lemov/__init__.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+copying /home/leoni/cato/build/lemov/build/lib/lemov/sensores.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/moer.py to moer.cpython-310.pyc
+byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/sensores.py to sensores.cpython-310.pyc
+running install_data
+creating /home/leoni/cato/install/lemov/share/ament_index
+creating /home/leoni/cato/install/lemov/share/ament_index/resource_index
+creating /home/leoni/cato/install/lemov/share/ament_index/resource_index/packages
+copying resource/lemov -> /home/leoni/cato/install/lemov/share/ament_index/resource_index/packages
+copying package.xml -> /home/leoni/cato/install/lemov/share/lemov
+running install_egg_info
+Copying ../../build/lemov/lemov.egg-info to /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov-0.0.0-py3.10.egg-info
+running install_scripts
+Installing move script to /home/leoni/cato/install/lemov/lib/lemov
+Installing sensori script to /home/leoni/cato/install/lemov/lib/lemov
+writing list of installed files to '/home/leoni/cato/build/lemov/install.log'

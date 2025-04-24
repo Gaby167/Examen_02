@@ -1,0 +1,26 @@
+[0.757s] Invoking command in '/home/leoni/cato/src/lemov': PYTHONPATH=/home/leoni/cato/build/lemov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemov build --build-base /home/leoni/cato/build/lemov/build install --record /home/leoni/cato/build/lemov/install.log --single-version-externally-managed install_data
+[0.941s] running egg_info
+[0.942s] writing ../../build/lemov/lemov.egg-info/PKG-INFO
+[0.942s] writing dependency_links to ../../build/lemov/lemov.egg-info/dependency_links.txt
+[0.942s] writing entry points to ../../build/lemov/lemov.egg-info/entry_points.txt
+[0.942s] writing requirements to ../../build/lemov/lemov.egg-info/requires.txt
+[0.942s] writing top-level names to ../../build/lemov/lemov.egg-info/top_level.txt
+[0.943s] reading manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+[0.943s] writing manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.943s] running build_py
+[0.943s] copying lemov/movisen.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+[0.944s] running install
+[0.944s] running install_lib
+[0.944s] copying /home/leoni/cato/build/lemov/build/lib/lemov/movisen.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+[0.945s] byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/movisen.py to movisen.cpython-310.pyc
+[0.945s] running install_data
+[0.946s] running install_egg_info
+[0.947s] removing '/home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov-0.0.0-py3.10.egg-info' (and everything under it)
+[0.947s] Copying ../../build/lemov/lemov.egg-info to /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov-0.0.0-py3.10.egg-info
+[0.947s] running install_scripts
+[0.960s] Installing move script to /home/leoni/cato/install/lemov/lib/lemov
+[0.960s] Installing movisen script to /home/leoni/cato/install/lemov/lib/lemov
+[0.960s] Installing sensori script to /home/leoni/cato/install/lemov/lib/lemov
+[0.960s] writing list of installed files to '/home/leoni/cato/build/lemov/install.log'
+[0.976s] Invoked command in '/home/leoni/cato/src/lemov' returned '0': PYTHONPATH=/home/leoni/cato/build/lemov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemov build --build-base /home/leoni/cato/build/lemov/build install --record /home/leoni/cato/build/lemov/install.log --single-version-externally-managed install_data

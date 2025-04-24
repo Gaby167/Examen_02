@@ -1,0 +1,41 @@
+[0.644s] Invoking command in '/home/leoni/cato/src/lemov': PYTHONPATH=/home/leoni/cato/build/lemov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemov build --build-base /home/leoni/cato/build/lemov/build install --record /home/leoni/cato/build/lemov/install.log --single-version-externally-managed install_data
+[1.055s] running egg_info
+[1.056s] creating ../../build/lemov/lemov.egg-info
+[1.056s] writing ../../build/lemov/lemov.egg-info/PKG-INFO
+[1.056s] writing dependency_links to ../../build/lemov/lemov.egg-info/dependency_links.txt
+[1.056s] writing entry points to ../../build/lemov/lemov.egg-info/entry_points.txt
+[1.056s] writing requirements to ../../build/lemov/lemov.egg-info/requires.txt
+[1.056s] writing top-level names to ../../build/lemov/lemov.egg-info/top_level.txt
+[1.057s] writing manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+[1.059s] reading manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+[1.060s] writing manifest file '../../build/lemov/lemov.egg-info/SOURCES.txt'
+[1.060s] running build
+[1.060s] running build_py
+[1.061s] creating /home/leoni/cato/build/lemov/build
+[1.061s] creating /home/leoni/cato/build/lemov/build/lib
+[1.061s] creating /home/leoni/cato/build/lemov/build/lib/lemov
+[1.061s] copying lemov/moer.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+[1.062s] copying lemov/__init__.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+[1.062s] copying lemov/sensores.py -> /home/leoni/cato/build/lemov/build/lib/lemov
+[1.062s] running install
+[1.064s] running install_lib
+[1.064s] creating /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+[1.064s] copying /home/leoni/cato/build/lemov/build/lib/lemov/moer.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+[1.064s] copying /home/leoni/cato/build/lemov/build/lib/lemov/__init__.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+[1.064s] copying /home/leoni/cato/build/lemov/build/lib/lemov/sensores.py -> /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov
+[1.065s] byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/moer.py to moer.cpython-310.pyc
+[1.066s] byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/__init__.py to __init__.cpython-310.pyc
+[1.066s] byte-compiling /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov/sensores.py to sensores.cpython-310.pyc
+[1.067s] running install_data
+[1.067s] creating /home/leoni/cato/install/lemov/share/ament_index
+[1.067s] creating /home/leoni/cato/install/lemov/share/ament_index/resource_index
+[1.069s] creating /home/leoni/cato/install/lemov/share/ament_index/resource_index/packages
+[1.069s] copying resource/lemov -> /home/leoni/cato/install/lemov/share/ament_index/resource_index/packages
+[1.069s] copying package.xml -> /home/leoni/cato/install/lemov/share/lemov
+[1.069s] running install_egg_info
+[1.071s] Copying ../../build/lemov/lemov.egg-info to /home/leoni/cato/install/lemov/lib/python3.10/site-packages/lemov-0.0.0-py3.10.egg-info
+[1.074s] running install_scripts
+[1.110s] Installing move script to /home/leoni/cato/install/lemov/lib/lemov
+[1.110s] Installing sensori script to /home/leoni/cato/install/lemov/lib/lemov
+[1.112s] writing list of installed files to '/home/leoni/cato/build/lemov/install.log'
+[1.176s] Invoked command in '/home/leoni/cato/src/lemov' returned '0': PYTHONPATH=/home/leoni/cato/build/lemov/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/leoni/cato/install/lemov/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lemov build --build-base /home/leoni/cato/build/lemov/build install --record /home/leoni/cato/build/lemov/install.log --single-version-externally-managed install_data

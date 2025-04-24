@@ -1,0 +1,6 @@
+source;share/lemove/hook/pythonpath.ps1
+source;share/lemove/hook/pythonpath.dsv
+source;share/lemove/hook/pythonpath.sh
+source;share/lemove/hook/ament_prefix_path.ps1
+source;share/lemove/hook/ament_prefix_path.dsv
+source;share/lemove/hook/ament_prefix_path.sh

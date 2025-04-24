@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/lemove/lemove.egg-info/PKG-INFO
+writing dependency_links to ../../build/lemove/lemove.egg-info/dependency_links.txt
+writing entry points to ../../build/lemove/lemove.egg-info/entry_points.txt
+writing requirements to ../../build/lemove/lemove.egg-info/requires.txt
+writing top-level names to ../../build/lemove/lemove.egg-info/top_level.txt
+reading manifest file '../../build/lemove/lemove.egg-info/SOURCES.txt'
+writing manifest file '../../build/lemove/lemove.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/leoni/cato/install/lemove/share/lemove
+running install_egg_info
+removing '/home/leoni/cato/install/lemove/lib/python3.10/site-packages/lemove-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/lemove/lemove.egg-info to /home/leoni/cato/install/lemove/lib/python3.10/site-packages/lemove-0.0.0-py3.10.egg-info
+running install_scripts
+Installing moer script to /home/leoni/cato/install/lemove/lib/lemove
+writing list of installed files to '/home/leoni/cato/build/lemove/install.log'

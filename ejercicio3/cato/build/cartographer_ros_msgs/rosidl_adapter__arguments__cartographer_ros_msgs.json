@@ -1,0 +1,25 @@
+{
+  "package_name": "cartographer_ros_msgs",
+  "non_idl_tuples": [
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/BagfileProgress.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/HistogramBucket.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/LandmarkEntry.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/LandmarkList.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/MetricFamily.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/MetricLabel.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/Metric.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/StatusCode.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/StatusResponse.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapEntry.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapList.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/SubmapTexture.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:msg/TrajectoryStates.msg",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/FinishTrajectory.srv",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/GetTrajectoryStates.srv",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/ReadMetrics.srv",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/StartTrajectory.srv",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/TrajectoryQuery.srv",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/SubmapQuery.srv",
+    "/home/leoni/cato/src/cartographer_ros/cartographer_ros_msgs:srv/WriteState.srv"
+  ]
+}
